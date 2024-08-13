@@ -178,3 +178,48 @@ background-size: cover;
 background-repeat: no-repeat;
    
 }
+
+
+.round{
+
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    justify-items: center;
+}
+.round img{
+border-radius: 50%;
+
+}
+.r{
+    color:white;
+    text-align: center;
+    text-wrap: 100px;
+}
+.meet{
+    color:white;
+    text-align: center;
+}
+
+
+.extra{
+    padding:10px;
+    color:white;
+
+}
+
+.run{
+    border:4px;
+    border-radius: 20px;
+    background-color: #272626;
+    display:flex;
+    justify-content: space-between;
+}
+.run img{
+    margin: 15px;
+    
+    border:4px;
+    border-radius: 20px;
+    height: 400px;
+    width: 400px;
+}
