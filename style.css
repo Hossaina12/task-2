@@ -1,0 +1,180 @@
+.bdy{
+    margin:0px;
+    padding:0px;
+    background: #000;
+}
+p{
+    color:rgb(162, 165, 165);
+}
+
+
+
+.fit{
+
+    color:tomato
+    
+}
+
+.home{
+    justify-content: space-between;
+    border:1px solid rgb(75, 72, 72);
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+.navbar{
+    
+    display: grid;
+    /*grid-template-columns: repeat(3,1fr);*/
+    grid-template-columns: 600px 450px 100px;
+    justify-content:space-between;
+    align-items: center;
+    
+}
+
+.ham{
+    height: 50px;
+    width: 50px;
+    margin-left: auto;
+    position: relative;
+}
+
+.ham span{
+    height:5px;
+    width:100%;
+    background-color: white;
+    border-radius: 25px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    transition: .3s ease;
+}
+
+.ham span:nth-child(1){
+    top:25%;
+
+}
+.ham span:nth-child(3){
+    top:75%;
+
+}
+.ham span:nth-child(4){
+    top:100%;
+}
+.ham{
+    visibility: hidden;
+}
+.abc{
+    margin-top: 15px;
+    margin-left: 100px;
+    margin-right: 70px;
+    margin-bottom: 50px;
+    background-color: black;
+}
+
+
+.pp{
+display: flex;
+justify-content: space-between;
+
+}
+
+.para{
+    line-break: auto;
+    color:white;
+    margin-top: 100px;
+    
+    
+}
+
+.change{
+    color:white;
+font-style:italic;font-weight:400px;
+
+}
+.btn{
+    
+        height: 30px;
+        border:none;
+        
+        margin-right: 20px;
+        padding: 10px 10px,10px,10px;
+        background-color:tomato;
+        border-radius: 20px;
+        color:white;
+    
+}
+
+
+.btnnav{
+    position:relative;
+    height: 30px;
+    width: 120px;
+    padding: 10px,10px,10px,10px;
+        background-color: black;
+        border:1px;
+        border-radius: 20px;
+        color:white; 
+}
+
+.btn1{
+    height: 30px;
+
+    padding: 10px,10px,10px,10px;
+        background-color: black;
+        border:1px solid white;
+        border-radius: 20px;
+        color:white; 
+}
+.butn{
+    display:flex;   
+ margin-top: 30px;
+}
+.card1{
+    position:relative;
+    height: 50px;
+    width: 100px;
+    margin-bottom: 0px;
+    margin-left: 250px;
+        margin-top:200px;
+    border:2px;
+    padding:0px;
+    border-radius: 5px;
+    
+    background: #322f2f;
+ text-align: center;
+ color:white;
+
+}
+.card2{
+    position: relative;
+    height: 50px;
+    width: 100px;
+    margin-top: 450px;
+    border:0px;
+    padding:2px;
+    border-radius: 5px;
+    background:#322f2f;  
+    text-align: center;
+    color:white; 
+    
+}
+
+.num{
+    font-size: medium;
+    font-weight: 800;
+    color:white;
+}
+    
+   
+.pic{
+    position: relative;
+    height: 800px;
+    width: 400px;
+    background-color: rgb(5, 5, 5);
+    background-image: url(image/Images\ 2.png);
+background-size: cover;
+background-repeat: no-repeat;
+   
+}
