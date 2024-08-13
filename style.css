@@ -223,3 +223,20 @@ border-radius: 50%;
     height: 400px;
     width: 400px;
 }
+
+table{
+
+    color:white;
+    border-collapse: collapse;
+    
+}
+
+.cap{
+    margin-bottom: 10px;
+    
+}
+
+td,th{
+ border : 1px solid gray;  
+ padding:5px 10px; 
+}
