@@ -389,3 +389,46 @@ margin-bottom: 10px;
           color:white;
           padding:10px;
      }
+
+     .foot{
+        color:tomato;
+        font-weight: 800;
+        font-size:larger;
+        font-family:  sans-serif;
+        font-style: italic;
+    }
+    .foott{
+        color:#7c7777;
+    
+    }
+    .get{
+        color:white;
+    }
+    .foott1{
+        color:rgb(162, 165, 165);
+        font-size: normal;
+        font-weight: 400;
+    }
+    .flx{
+        display:flex;
+        justify-content: space-between;
+        margin: 0px;
+        padding:0px;
+    }
+    .line{
+        margin:0px;
+        border:0px;
+        padding:0px;
+        height:1px;
+        width:100%;
+        background: #7c7777;
+    }
+    .coppy{
+        color: rgb(203, 214, 214);
+        text-align: center;
+    }
+    .fot{
+        background-color: #272626;
+        padding-left: 100px;
+        padding-right: 70px;
+    }
