@@ -275,8 +275,6 @@ td,th{
 }
 .for{
     position: relative;
-    
-
     margin: 10px;
     color: white;
 }
@@ -287,7 +285,7 @@ select{
 }
 .val{
     height: 30px;
-    width:610px;
+    width:400px;
     
     background: #4a4949;
 border-radius: 5px;
@@ -295,13 +293,13 @@ border-radius: 5px;
 }
 #hei{
     height: 30px;
-    width: 300px;
+    width: 200px;
     background: #4a4949;
     border-radius: 7px;
 }
 .s{
     height:30px;
-    width: 300px;
+    width: 200px;
     background: #4a4949;
 border-radius: 5px;
 }
@@ -549,6 +547,7 @@ padding-right: 0px;
 .s{
     margin-left: 10px;
     border-radius: 5px;
+    
     background: #4a4949;
 }
 .cal button{
