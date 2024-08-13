@@ -432,3 +432,157 @@ margin-bottom: 10px;
         padding-left: 100px;
         padding-right: 70px;
     }
+    
+@media screen and (max-width:576px) {
+
+    
+    .navbar{
+        display:flex;
+    }
+    .abc{
+        margin-top: 15px;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-bottom: 50px;
+        padding:10px;
+        background-color: black;
+
+    }
+    .home{
+        visibility: hidden;
+    }
+    .ham{
+        visibility: visible;
+    }
+.pp{
+    display:block;
+}
+.butn button{
+    height:40px;
+    width:190px;
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+}
+.btn1{
+padding-top:10px;
+padding-left: 15px;
+padding-right: 0px;
+}
+.btn{
+    padding-top:10px;
+    padding-left: 15px;
+    padding-right: 0px;
+    }
+.round{
+    
+    display:grid;
+    grid-template-columns: repeat(1,1fr)
+}
+
+.small{
+    margin-left: 75px;
+}
+
+.run{
+    display:block;
+    margin-right: 10px;
+    width: 380px;
+    
+}
+.run button{
+    height: 70px;
+    width:350px;
+    border-radius: 30px;
+}
+.run img{
+    height: 250px;
+    width: 350px;
+    border-radius: 30px;
+    
+    
+
+}
+
+.Bmi{
+    display:block;
+}
+.hw{
+    display:flex;
+    
+}
+#hei{
+    width: 100px;
+    margin-left: 5px;
+    border-radius: 5px;
+    background: #4a4949;
+}
+.val{
+    width: 200px;
+    margin-left: 5px;
+    border-radius: 5px;
+    background: #4a4949;
+    
+}
+.s{
+    margin-left: 10px;
+    border-radius: 5px;
+    background: #4a4949;
+}
+.cal button{
+margin-left: 10px;
+}
+.team{
+    display:grid;
+    grid-template-columns: repeat(1, 1fr);  
+}
+.tm6{
+    display:none;
+}
+.imagetext{
+    display:none;
+}
+.imagetext3{
+    display:none;
+}
+.imagetext1{
+       
+    position:absolute;
+      top:16%;
+      left:5%;
+      color:white;
+      padding:10px;
+ }
+ .imagetext2{
+   
+    position:absolute;
+      top:42%;
+      left:5%;
+      color:white;
+      padding:10px;
+    }
+    .imagetext4{
+       
+        position:absolute;
+          top:70%;
+          left:5%;
+          color:white;
+          padding:10px;
+     }
+     .imagetext5{
+       
+        position:absolute;
+          top:92%;
+          left:5%;
+          color:white;
+          padding:10px;
+     }
+
+.fot{
+    
+    padding-left: 10px;
+}
+.fot div{
+    display:block;
+}
+
+}
