@@ -90,7 +90,9 @@ justify-content: space-between;
 
 .change{
     color:white;
-font-style:italic;font-weight:400px;
+font-style:italic;
+
+font-weight:100px;
 
 }
 .btn{
