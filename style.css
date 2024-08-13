@@ -240,3 +240,61 @@ td,th{
  border : 1px solid gray;  
  padding:5px 10px; 
 }
+
+.in{
+    position:relative;
+    
+
+    height: auto;
+    width: 100%;
+    margin:10px;
+    margin-bottom: 30px;
+    color:white;
+}
+.for{
+    position: relative;
+    
+
+    margin: 10px;
+    color: white;
+}
+
+select{
+    width:170px;
+    color:#7c7777;
+}
+.val{
+    height: 30px;
+    width:610px;
+    
+    background: #4a4949;
+border-radius: 5px;
+    color:#7c7777;
+}
+#hei{
+    height: 30px;
+    width: 300px;
+    background: #4a4949;
+    border-radius: 7px;
+}
+.s{
+    height:30px;
+    width: 300px;
+    background: #4a4949;
+border-radius: 5px;
+}
+.cal button{
+    height:35px;
+     width: 200px;
+    margin-left: 10px;
+    
+    }
+.Bmi{
+  
+    display:flex;
+    background-color: #272626;
+    margin-top: 10px;
+    padding-left:100px;
+    padding-right: 70px;
+    padding-bottom: 20px;
+}
